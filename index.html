@@ -3,26 +3,30 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f5f7fb">
+  <meta name="theme-color" content="#101d35">
   <meta name="description" content="Test the NICE Cognigy capstone chat and English voice assistant.">
   <title>NICE Cognigy Capstone</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=20261123-2">
   <script src="app.js" defer></script>
 </head>
 <body>
   <main>
-    <h1>NICE Cognigy Capstone</h1>
+    <p class="brand"><span class="brand-mark" aria-hidden="true">✳</span> NICE <span>Cognigy</span></p>
+    <p class="project-label">CAPSTONE DEMO</p>
+    <h1>Let’s test a conversation.</h1>
     <p class="intro">Choose an option to test.</p>
     <div class="options">
-      <button class="option" type="button" data-chat>
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16v12H9l-5 4Z"/><path d="M8 8h8M8 12h5"/></svg>
+      <button class="option chat-option" type="button" data-chat>
+        <span class="option-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16v12H9l-5 4Z"/><path d="M8 8h8M8 12h5"/></svg></span>
         <span class="option-title">Test chat</span>
-        <span class="option-note">Type a message</span>
+        <span class="option-note">Type a message to the assistant</span>
+        <span class="option-action" aria-hidden="true">Open chat</span>
       </button>
-      <button class="option" type="button" id="open-voice">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m7 3 3 5-3 3c2 3 3 4 6 6l3-3 5 3-2 4C10 23 1 14 3 5Z"/></svg>
+      <button class="option voice-option" type="button" id="open-voice">
+        <span class="option-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m7 3 3 5-3 3c2 3 3 4 6 6l3-3 5 3-2 4C10 23 1 14 3 5Z"/></svg></span>
         <span class="option-title">Test voice call</span>
-        <span class="option-note">English / Microphone required</span>
+        <span class="option-note">English · Microphone required</span>
+        <span class="option-action" aria-hidden="true">Start voice test</span>
       </button>
     </div>
     <p id="chat-status" class="widget-status" role="status" aria-live="polite"></p>
