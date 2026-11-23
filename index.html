@@ -3,62 +3,38 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#111b36">
-  <meta name="description" content="Explore a NICE Cognigy capstone project through conversational chat and an English voice experience.">
-  <title>Conversational AI Lab · NICE Cognigy Capstone</title>
+  <meta name="theme-color" content="#f5f7fb">
+  <meta name="description" content="Test the NICE Cognigy capstone chat and English voice assistant.">
+  <title>NICE Cognigy Capstone</title>
   <link rel="stylesheet" href="styles.css">
   <script src="app.js" defer></script>
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
-  <header class="header wrap">
-    <a class="brand" href="#" aria-label="Capstone Lab home"><span class="brand-icon" aria-hidden="true">c<span>●</span></span><span>capstone<span class="brand-light"> / lab</span></span></a>
-    <nav aria-label="Main navigation"><a href="#experience">The experience</a><a href="#about">About the project</a><span class="nav-tag">NICE COGNIGY</span></nav>
-  </header>
-  <main id="main">
-    <section class="hero wrap" aria-labelledby="hero-title">
-      <div class="hero-copy">
-        <p class="eyebrow"><span></span> CONVERSATIONAL AI · CAPSTONE PROJECT</p>
-        <h1 id="hero-title">A little more human.<br>A lot more <em>connected.</em></h1>
-        <p class="hero-description">Good conversations start with a hello. Explore our AI experience through chat or a real-time voice conversation, powered by NICE Cognigy.</p>
-        <div class="hero-actions"><a class="button primary" href="#experience">Explore the demo</a><a class="text-link" href="#about">Meet the project <span aria-hidden="true">↗</span></a></div>
-        <p class="hero-note">Two ways to connect. One conversational experience.</p>
-      </div>
-      <div class="conversation-art" aria-label="Illustration of voice and chat connected through conversational AI" role="img">
-        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div>
-        <div class="art-label">MADE FOR CONVERSATION</div>
-        <div class="floating-message"><span class="mini-avatar">✳</span><span>Hello there.<br><strong>How can I help?</strong></span><span class="message-dot"></span></div>
-        <div class="ai-core"><div class="core-inner"><span class="core-spark">✳</span></div></div>
-        <div class="voice-bubble"><span class="wave"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span>Let’s talk.</span></div>
-        <div class="art-caption"><span class="tiny-cross">+</span> VOICE & TEXT, CONNECTED <span class="tiny-cross">+</span></div>
-      </div>
-    </section>
-    <section class="experience-section" id="experience" aria-labelledby="experience-title">
-      <div class="wrap">
-        <div class="section-heading"><div><p class="eyebrow">THE EXPERIENCE</p><h2 id="experience-title">Your conversation. Your way.</h2></div><p>Pick a channel and say hello.<br>We’ll take it from there.</p></div>
-        <div class="channels">
-          <article class="channel chat-channel">
-            <div class="card-top"><span class="channel-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20 11.5a8 8 0 0 1-8 8H4l-1 2v-10a8.5 8.5 0 0 1 17 0Z"/><path d="M7 10h9M7 14h6"/></svg></span><span class="pill">TEXT CHAT</span></div>
-            <h3>A conversation at your pace.</h3><p>Type a question, explore the assistant, and see conversational AI in action.</p>
-            <div class="card-bottom"><button class="button dark" type="button" data-chat>Let’s chat <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16v12H9l-5 4Z"/></svg></button><span>No microphone needed</span></div>
-          </article>
-          <article class="channel voice-channel">
-            <div class="card-top"><span class="channel-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m7 3 3 5-3 3c2 3 3 4 6 6l3-3 5 3-2 4C10 23 1 14 3 5Z"/></svg></span><span class="pill">VOICE · ENGLISH</span></div>
-            <h3>Sometimes, it’s better to talk.</h3><p>Meet the voice assistant. Start an English conversation right from your browser.</p>
-            <div class="card-bottom"><button class="button dark" type="button" id="open-voice">Try a voice call <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a3 3 0 0 0-3 3v6a3 3 0 0 0 6 0V6a3 3 0 0 0-3-3ZM5 10v2a7 7 0 0 0 14 0v-2M12 19v3M8 22h8"/></svg></button><span>Microphone required</span></div>
-          </article>
-        </div>
-        <p id="chat-status" class="widget-status" role="status" aria-live="polite">Chat loads when you’re ready to start.</p>
-        <p class="demo-note"><span aria-hidden="true">ⓘ</span> This is a capstone demo. Please use sample information when exploring.</p>
-      </div>
-    </section>
-    <section class="about wrap" id="about" aria-labelledby="about-title">
-      <div><p class="eyebrow">BUILT WITH CURIOSITY</p><h2 id="about-title">From an idea<br>to a conversation.</h2></div>
-      <div class="about-copy"><p>This capstone project brings voice and chat together with NICE Cognigy. It’s a hands-on exploration of how conversational AI can make digital interactions feel more natural.</p><div class="project-tags"><span>NICE Cognigy</span><span>Webchat</span><span>Click-to-call</span></div></div>
-    </section>
+  <main>
+    <h1>NICE Cognigy Capstone</h1>
+    <p class="intro">Choose an option to test.</p>
+    <div class="options">
+      <button class="option" type="button" data-chat>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16v12H9l-5 4Z"/><path d="M8 8h8M8 12h5"/></svg>
+        <span class="option-title">Test chat</span>
+        <span class="option-note">Type a message</span>
+      </button>
+      <button class="option" type="button" id="open-voice">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m7 3 3 5-3 3c2 3 3 4 6 6l3-3 5 3-2 4C10 23 1 14 3 5Z"/></svg>
+        <span class="option-title">Test voice call</span>
+        <span class="option-note">English / Microphone required</span>
+      </button>
+    </div>
+    <p id="chat-status" class="widget-status" role="status" aria-live="polite"></p>
+    <noscript><p>Enable JavaScript to test chat and voice.</p></noscript>
   </main>
-  <footer class="footer wrap"><span>capstone / lab <span class="footer-divider">·</span> A conversational AI project</span><span>Powered by <strong>NICE Cognigy</strong></span></footer>
-  <dialog id="voice-dialog" aria-labelledby="voice-title"><div class="dialog-header"><div><p class="eyebrow">VOICE EXPERIENCE</p><h2 id="voice-title">Let’s talk. In English.</h2></div><button id="close-voice" class="close-button" aria-label="Close voice experience and end call">✕</button></div><p class="dialog-help">Allow microphone access when prompted, then use the call controls below. Closing this window ends the session.</p><iframe id="voice-frame" title="Cognigy English click-to-call" allow="microphone; autoplay"></iframe></dialog>
-  <noscript><p class="noscript">Enable JavaScript to use the chat and voice experiences.</p></noscript>
+  <dialog id="voice-dialog" aria-labelledby="voice-title">
+    <div class="dialog-header">
+      <h2 id="voice-title">English voice call</h2>
+      <button id="close-voice" class="close-button" aria-label="Close voice experience and end call">Close</button>
+    </div>
+    <p class="dialog-help">Allow microphone access when prompted. Closing this window ends the call.</p>
+    <iframe id="voice-frame" title="Cognigy English click-to-call" allow="microphone; autoplay"></iframe>
+  </dialog>
 </body>
 </html>

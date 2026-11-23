@@ -29,4 +29,4 @@ Repository settings: https://github.com/lploc1711/lploc-capstone-uc1/settings/pa
 
 Official references: [Webchat API](https://github.com/Cognigy/Webchat/blob/main/docs/webchat-api.md), [Click-to-call widget](https://github.com/Cognigy/click-to-call-widget).
 
-The project is a demonstration, not an official NICE or Cognigy website. The layout uses Google Fonts with local sans-serif fallbacks.
+The project is a demonstration, not an official NICE or Cognigy website. The page uses system fonts and shows only two testing options: chat and English voice calling.
